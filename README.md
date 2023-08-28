@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link](https://github.com/NgocMinhThuNguyen/INTERACTIVE-RATING-COMPONENT-)
-- Live Site URL: [Link](https://your-live-site-url.com)
+- Live Site URL: [Link](https://ngocminhthunguyen.github.io/INTERACTIVE-RATING-COMPONENT-/)
 
 ## Built with
 
