@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-rating-state.)
+![](./screenshot-rating-state.png)
 
-![](./screenshot-thank-you-state.)
+![](./screenshot-thank-you-state.png)
 
 ### Links
 
