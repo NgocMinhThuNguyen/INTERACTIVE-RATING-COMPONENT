@@ -1,3 +1,4 @@
+/* Set up */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 :root {
@@ -28,6 +29,15 @@ body {
   color: var(--white);
 }
 
+h1, .call-to-action {
+  color: var(--white);
+}
+
+p, button{
+  color: var(--light-grey);
+  font-size: 15px;
+}
+
 main {
   position: relative;
 }
@@ -45,19 +55,11 @@ section {
   gap: 1rem;
 }
 
+/* Rating state */
 section.rating-state {
   text-align: left;
   position: relative;
   z-index: 100;
-}
-
-h1, .call-to-action {
-  color: var(--white);
-}
-
-p, button{
-  color: var(--light-grey);
-  font-size: 15px;
 }
 
 .rating-state img {
@@ -81,7 +83,7 @@ p, button{
   background-color: hsla(216, 12%, 54%, 0.205);
 }
 
-.call-to-action {
+.submit {
   height: 40px;
   border-radius: 20px;
   border-style: none;
@@ -90,10 +92,11 @@ p, button{
   letter-spacing: 2px;
 }
 
-.rating button:hover, .call-to-action:hover {
+.rating button:hover, .submit:hover {
   cursor: pointer;
 }
 
+/* Thank you state */
 section.thankyou-state {
   align-items: center;
   position: absolute;
@@ -111,11 +114,12 @@ section.thankyou-state {
   border-radius: 20px;
 }
 
+/* Move thank you card over rating card after rating */
 section.after {
   z-index: 9999;
 }
 
-
+/* Footer */
 a {
   text-decoration: none;
   color: var(--orange);
