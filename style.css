@@ -46,8 +46,7 @@ section {
   width: 343px;
   height: 360px;
   background-color: hsl(213, 19%, 18%);
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: auto 1rem;
   padding: 2rem;
   border-radius: .5rem;
   display: flex;
