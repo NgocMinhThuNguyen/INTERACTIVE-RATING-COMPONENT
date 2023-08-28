@@ -20,10 +20,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 2rem;
   font-family: 'Overpass', sans-serif;
+  text-align: center;
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+}
+
+main {
+  position: relative;
 }
 
 section {
+  width: 343px;
+  height: 360px;
   background-color: hsl(213, 19%, 18%);
   margin-left: 1rem;
   margin-right: 1rem;
@@ -34,7 +45,13 @@ section {
   gap: 1rem;
 }
 
-h2, .call-to-action {
+section.rating-state {
+  text-align: left;
+  position: relative;
+  z-index: 100;
+}
+
+h1, .call-to-action {
   color: var(--white);
 }
 
@@ -73,7 +90,24 @@ p, button{
   letter-spacing: 2px;
 }
 
-.thankyou-state {
-  visibility: hidden;
+.rating button:hover, .call-to-action:hover {
+  cursor: pointer;
+}
+
+section.thankyou-state {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.rating-show p {
+  color: var(--orange);
+  padding: .6rem;
+}
+
+.rating-show {
+  background-color: hsla(216, 12%, 54%, 0.205);
+  border-radius: 20px;
 }
 
