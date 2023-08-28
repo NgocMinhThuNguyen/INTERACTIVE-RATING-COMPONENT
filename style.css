@@ -95,6 +95,21 @@ section.rating-state {
   cursor: pointer;
 }
 
+.rating button:hover {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.rating button:focus {
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
+
+.submit:hover {
+  color: var(--orange);
+  background-color: var(--white);
+}
+
 /* Thank you state */
 section.thankyou-state {
   align-items: center;
