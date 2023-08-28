@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-rating-state.png)
+![](images/screenshot-rating-state.png)
 
-![](./screenshot-thank-you-state.png)
+![](images/screenshot-thank-you-state.png)
 
 ### Links
 
@@ -43,6 +43,5 @@ Users should be able to:
 ## Author
 
 - Website - [Thu Nguyen](https://github.com/NgocMinhThuNguyen)
-- Frontend Mentor - [@NgocMinhThuNguyen](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.frontendmentor.io/profile/NgocMinhThuNguyen)
+- Frontend Mentor - [@NgocMinhThuNguyen](https://www.frontendmentor.io/profile/NgocMinhThuNguyen)
 
