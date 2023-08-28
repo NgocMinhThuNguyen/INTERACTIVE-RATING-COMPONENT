@@ -111,3 +111,12 @@ section.thankyou-state {
   border-radius: 20px;
 }
 
+section.after {
+  z-index: 9999;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--orange);
+}
